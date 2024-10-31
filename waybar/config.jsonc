@@ -1,0 +1,51 @@
+{
+    "width": 960,
+    "height": 36,
+    "position": "bottom",
+    "margin-bottom": 16,
+    "margin-right": 32,
+    "margin-left": 32,
+    "spacing": 14,
+
+    "modules-left": [
+        "memory",
+        "temperature"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "wireplumber"
+    ],
+
+    "memory": {
+        "interval": 5,
+        "format": "{used} GiB",
+        "tooltip": false
+    },
+
+    "temperature": {
+        "interval": 5,
+        "format": "{temperatureC} C",
+        "hwmon-path": "/sys/class/hwmon/hwmon4/temp3_input",
+        "thermal-zone": "temp2",
+        "tooltip": false
+    },
+
+    "clock": {
+        "interval": 60,
+        "format": "{:%I:%M %p on %a %Y-%m-%d}",
+        "max-length": -1,
+        "tooltip": false
+    },
+
+    "wireplumber": {
+        "format": "{volume}%",
+        "format-icons": ["󰕾"],
+        "max-volume": 28,
+        "scroll-step": 2.0,
+        "tooltip": false
+    }
+}

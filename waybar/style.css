@@ -1,0 +1,22 @@
+* {
+    font-family: "IntoneMonoNerdFontMono";
+    font-size: 18px;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+window#waybar {
+    background-color: #101010;
+    color: #888888;
+}
+
+.modules-left {
+    margin-left: 16px;
+}
+.modules-right {
+    margin-right: 16px;
+}
+
+#clock {
+    color: #dddddd;
+}

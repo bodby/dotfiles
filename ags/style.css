@@ -1,0 +1,136 @@
+* {
+    /* font-family: "IntoneMonoNerdFontMono"; */
+    font-family: "LilexNerdFontMono";
+    font-size: 18px;
+    border-radius: 0px;
+    text-shadow: none;
+}
+
+.bob-separator {
+    color: #515151;
+}
+
+/* Bar. */
+.bob-bar {
+    background: none;
+}
+
+/* Shadow without clipping off. */
+window#bobbar-0 > box {
+    /*margin: 8px;*/
+    /*box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);*/
+}
+
+.bob-bar-box {
+    background-color: #080808;
+    /*background-color: rgba(16, 16, 16, 0.85);*/
+    /*border-radius: 12px;*/
+    /*border-top: 1px solid rgba(255, 255, 255, 0.07);*/
+    /*border-top: 1px solid #212121;*/
+    min-width: 960px;
+    min-height: 42px;
+}
+
+.clock {
+    color: #bbb;
+}
+
+.memory, .cpu, .volume {
+    color: #888;
+}
+
+.bob-edge .border {
+    min-height: 12px;
+    box-shadow: 0px 0px 0px 32px #080808;
+    border-radius: 0px 0px 99px 99px;
+}
+
+.bob-edge .corner {
+    /*box-shadow: inset 0px 0px 0px 32px #101010;*/
+    /* #191919 is #080808 mixed with #ffffff12. */
+    border-bottom: 1px solid #191919;
+    border-right: 1px solid #191919;
+    border-left: 1px solid #191919;
+    border-radius: 0px 0px 99px 99px;
+}
+
+/* App launcher. */
+.entry-decorator {
+    font-size: 20px;
+    color: #515151;
+}
+
+.app-launcher {
+    color: #bbbbbb;
+}
+
+.app-launcher-box {
+    background-color: #101010;
+    padding: 16px;
+    /*border: 1px solid rgba(255, 255, 255, 0.07);*/
+    border-radius: 12px;
+}
+
+window#boblauncher > box {
+    background: none;
+    /*margin: 2px;*/
+    /*box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);*/
+}
+
+.app-launcher-entry {
+    background-color: #101010;
+    color: #bbbbbb;
+    min-height: 24px;
+    box-shadow: none;
+    border: none;
+}
+
+/* Desktop widgets. */
+.bob-desktop {
+    background: none;
+}
+
+window#bobdesktop-0 > box {
+    /*margin: 2px;*/
+    /*box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);*/
+}
+
+.battery block {
+    background-image: none;
+    min-height: 2px;
+    border-radius: 12px;
+}
+
+.battery trough {
+    padding: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+}
+
+.battery .filled {
+    background-image: none;
+    background-color: #dddddd;
+    box-shadow: 2px 0 0 #101010;
+    border: none;
+    padding: 0;
+}
+
+.battery-box {
+    padding: 16px;
+    background-color: #101010;
+    color: #bbbbbb;
+    /*border: 1px solid rgba(255, 255, 255, 0.07);*/
+    border-radius: 12px;
+}
+
+.battery-label, .battery-icon {
+    color: #888888;
+    margin: 8px 0 0 0;
+}
+
+.battery-icon {
+    color: #dddddd;
+    font-size: 24px;
+    margin: 0 0 8px 0;
+}

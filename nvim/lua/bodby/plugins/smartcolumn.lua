@@ -1,0 +1,3 @@
+return {
+  colorcolumn = "100"
+}

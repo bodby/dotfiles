@@ -1,0 +1,29 @@
+[luarocks]
+servers = []
+dev_servers = [ "https://nvim-neorocks.github.io/rocks-binaries-dev/" ]
+
+[plugins]
+"rocks.nvim" = "2.41.0"
+"material.nvim" = "scm"
+tree-sitter-rust = "scm"
+tree-sitter-latex = "scm"
+"nabla.nvim" = "scm"
+tree-sitter-markdown = "scm"
+tree-sitter-markdown_inline = "scm"
+tree-sitter-fish = "scm"
+"obsidian.nvim" = "scm"
+nvim-cmp = "scm"
+cmp-nvim-lsp = "scm"
+"smartcolumn.nvim" = "dev"
+tree-sitter-cpp = "scm"
+"telescope.nvim" = "scm"
+tree-sitter-zig = "scm"
+"markview.nvim" = "24.0.0"
+"helpview.nvim" = "1.1.0"
+tree-sitter-jsx = "scm"
+tree-sitter-javascript = "scm"
+tree-sitter-css = "scm"
+"telescope-zf-native.nvim" = "1.0.0"
+tree-sitter-nix = "scm"
+tree-sitter-make = "0.0.29"
+showkeys = "scm"
