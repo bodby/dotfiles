@@ -1,5 +1,7 @@
 # Dotfiles
 
+Originally from Gentoo Linux but these aren't system configuration files so it doesn't matter.
+
 Dotfiles for:
 
 - Hyprland.
